@@ -1,0 +1,17 @@
+.picture-box-container{
+  width:404px;
+  margin:auto;
+  margin-top:30px;
+}
+.picture-box{
+  height:200px;
+  width:200px;
+  background-color: #ccc;
+  float: left;
+  border: solid #919191 1px;
+}
+.click-count{
+  font-size:30px;
+  clear:left;
+  text-align: center
+}
