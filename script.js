@@ -10,7 +10,9 @@ $(document).ready(function() {
   // we need to execute the function turnSquare every time a square is clicked
   // but we need to pass a parameter $(this) to the turnSquare function
   // to do this, we need to use the .click(function() { turnSquare( $(this) ) }) format
-  
+  $(".picture-box").click(function () {
+    turnSquare( $(this) );
+  });
   
   
 });
@@ -23,7 +25,7 @@ function turnSquare(squareObject)
   // increment (add) 1 to the variable clickCount
   // it will look something like this clickCount = 
 
-
+clickCount= clickCount+1;
    
   $("#clickCount").html(clickCount);
   
